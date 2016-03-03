@@ -19,6 +19,8 @@
 			},
 			defaultDate: '2014-11-12',
 			editable: true,
+			minTime: "06:00:00",
+			maxTime: "19:00:00",
 			eventLimit: true, // allow "more" link when too many events
 			events: [
 				{
@@ -80,6 +82,9 @@
 		
 	});
 
+	document.addEventListener('touchmove', function(event) {
+		event.preventDefault();
+	}, false);
 </script>
 <style>
 

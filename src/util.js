@@ -81,7 +81,7 @@ function pointerEventToXY(e) {
 }
 
 var isPhantomJS = navigator.userAgent.toLowerCase().indexOf('phantom') !== -1;
-var dragOnTouchDevices = false; // do a drag when we are on touch devices, *experimental*, has some issues with scrolling and dragging 
+var dragOnTouchDevices = true; // do a drag when we are on touch devices, *experimental*, has some issues with scrolling and dragging
 
 function getMouseDownEvent() {
 	if (window.navigator.msPointerEnabled) {
