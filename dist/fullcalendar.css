@@ -1,13 +1,17 @@
 /*!
- * FullCalendar v2.2.5 Stylesheet
- * Docs & License: http://arshaw.com/fullcalendar/
- * (c) 2013 Adam Shaw
+ * <%= meta.title %> v<%= meta.version %> Stylesheet
+ * Docs & License: <%= meta.homepage %>
+ * (c) <%= meta.copyright %>
  */
 
 
 .fc {
 	direction: ltr;
 	text-align: left;
+	-ms-touch-action: none;
+	-webkit-user-select: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+
 }
 
 .fc-rtl {
