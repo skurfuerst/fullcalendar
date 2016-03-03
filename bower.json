@@ -28,7 +28,7 @@
   "ignore": [
     "*",
     "**/.*",
-    "!/dist/**",
+    "!/dist_all/**",
     "!/bower.json",
     "!/changelog.*",
     "!/license.*",
